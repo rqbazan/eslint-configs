@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['airbnb-base', './common']
+  extends: ['airbnb-base', require.resolve('./common')]
 }

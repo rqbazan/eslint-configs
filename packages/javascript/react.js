@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['airbnb', 'prettier/react', './common'],
+  extends: ['airbnb', 'prettier/react', require.resolve('./common')],
   env: {
     node: true,
     browser: true
@@ -9,5 +9,9 @@ module.exports = {
     react: {
       version: 'detect'
     }
+  },
+  rules: {
+    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+    'react/prop-types': ['error', { skipUndeclared: true }]
   }
 }
