@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces"
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "lerna:localpublish": "lerna publish --registry http://localhost:4873 --no-changelog",
+    "lerna:publish": "lerna publish --no-changelog"
   },
   "license": "MIT",
   "husky": {
