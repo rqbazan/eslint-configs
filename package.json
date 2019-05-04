@@ -18,7 +18,18 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
-    ]
+    ],
+    "rules": {
+      "scope-enum": [
+        2,
+        "always",
+        [
+          "lerna",
+          "js",
+          "ts"
+        ]
+      ]
+    }
   },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
