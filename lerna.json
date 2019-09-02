@@ -7,7 +7,7 @@
     "publish": {
       "conventionalCommits": true,
       "allowBranch": "master",
-      "message": "chore(release): publish 🍕"
+      "message": "chore(lerna): publish 🍕"
     }
   }
 }
