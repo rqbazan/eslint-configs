@@ -26,7 +26,8 @@
         [
           "lerna",
           "js",
-          "ts"
+          "ts",
+          "tools"
         ]
       ]
     }
