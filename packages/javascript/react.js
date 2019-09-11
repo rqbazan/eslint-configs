@@ -12,6 +12,9 @@ module.exports = {
   },
   rules: {
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
-    'react/prop-types': ['error', { skipUndeclared: true }]
+    'react/prop-types': ['error', { skipUndeclared: true }],
+    'react/destructuring-assignment': 'off',
+    'react/state-in-constructor': 'off',
+    'react/jsx-props-no-spreading': 'off'
   }
 }
