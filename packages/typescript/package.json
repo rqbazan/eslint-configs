@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rqbazan-ts",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "author": {
     "name": "Ricardo Alexis Quiroz Bazan",
@@ -10,7 +10,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
-    "eslint-config-rqbazan-js": "^0.2.0",
+    "eslint-config-rqbazan-js": "^0.3.0",
     "eslint-import-resolver-typescript": "^1.1.1"
   },
   "peerDependencies": {
